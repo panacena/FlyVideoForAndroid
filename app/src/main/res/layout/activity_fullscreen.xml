@@ -15,22 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_gravity="bottom"
-            android:background="@color/control_bar_bg">
-
-            <ImageView
-                android:id="@+id/iv_is_fullscreen"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/play_fullscreen"
-                android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="12dp"/>
-
-        </RelativeLayout>
+        <include layout="@layout/layout_video_control"/>
     </FrameLayout>
 
 </LinearLayout>
